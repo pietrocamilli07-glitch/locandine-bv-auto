@@ -1,0 +1,11 @@
+{
+  "name": "auto-instagram-bv",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.0",
+    "@netlify/blobs": "^9.0.0"
+  }
+}

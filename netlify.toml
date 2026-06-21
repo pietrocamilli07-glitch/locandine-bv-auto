@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  # il binario nativo del renderer va tenuto esterno e incluso così com'è
+  external_node_modules = ["@napi-rs/canvas"]
+
+# Il watcher gira da solo ogni 30 minuti (lo schedule è anche nel file della funzione).
+[functions."watcher"]
+  schedule = "*/30 * * * *"

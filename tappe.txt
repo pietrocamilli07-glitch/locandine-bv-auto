@@ -1,0 +1,3 @@
+# Un link tappa per riga (le righe che iniziano con # sono ignorate).
+# Esempio:
+# https://beachvolley.federvolley.it/node/66780

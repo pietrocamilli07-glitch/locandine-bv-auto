@@ -1,0 +1,5 @@
+node_modules/
+test/out_*.png
+test/out_*.jpg
+to-publish.json
+*.log
