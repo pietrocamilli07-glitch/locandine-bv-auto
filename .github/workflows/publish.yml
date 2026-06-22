@@ -1,6 +1,8 @@
 name: Pubblica storie Instagram
 
-# Si avvia da solo ogni 30 minuti, oppure a mano da Actions -> "Run workflow" incollando i link.
+# Controlla da solo ogni ~15 minuti i link in tappe.txt e pubblica le partite appena concluse.
+# Si puo' avviare anche a mano dal sito / da Actions -> "Run workflow" incollando i link:
+# in quel caso il link viene anche SALVATO in tappe.txt e resta sotto controllo per tutto il giorno.
 on:
   workflow_dispatch:
     inputs:
@@ -9,7 +11,7 @@ on:
         required: false
         default: ""
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
 
 # Un solo run alla volta: evita doppie pubblicazioni.
 concurrency:
@@ -34,6 +36,22 @@ jobs:
 
       - name: Installa dipendenze
         run: npm ci
+
+      - name: Salva il link di stamattina nella watch-list (tappe.txt)
+        if: ${{ github.event.inputs.tappe != '' }}
+        env:
+          TAPPE_IN: ${{ github.event.inputs.tappe }}
+        run: |
+          printf '%s\n' "$TAPPE_IN" | tr ',;' '\n' | sed 's/[[:space:]]//g' | sed '/^$/d' > tappe.txt
+          git config user.name "bv-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tappe.txt
+          if git diff --cached --quiet; then
+            echo "Watch-list invariata."
+          else
+            git commit -m "watch-list: tappa di oggi [skip ci]"
+            git push
+          fi
 
       - name: Genera le grafiche nuove
         run: node publish-gh.mjs render
