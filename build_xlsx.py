@@ -1,6 +1,6 @@
 import json, sys
 from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, Protection
 
 args = sys.argv[1:]
 ins = [a for a in args if a.endswith('.json')] or ['players_all.json']
@@ -12,6 +12,10 @@ for f in ins:
 
 GEN_ORDER = ['MASCHILE', 'FEMMINILE']
 CAT_ORDER = ['UNDER 14', 'UNDER 16', 'UNDER 18', 'UNDER 20', 'ASSOLUTO']
+CAT_SHORT = {'UNDER 14': 'U14', 'UNDER 16': 'U16', 'UNDER 18': 'U18', 'UNDER 20': 'U20', 'ASSOLUTO': 'Assoluto'}
+GEN_SHORT = {'MASCHILE': 'Maschile', 'FEMMINILE': 'Femminile'}
+GEN_COL = {'MASCHILE': '1F4E79', 'FEMMINILE': 'B0286B'}
+
 groups = {}
 for p in players:
     groups.setdefault((p['genere'], p['categoria']), {})[p['id']] = p['name']
@@ -19,60 +23,59 @@ for p in players:
 def tc(n):
     return ' '.join(w.capitalize() for w in n.split())
 
-wb = Workbook(); ws = wb.active; ws.title = 'Rubrica 2026'
-ws.sheet_view.showGridLines = False
 FNT = 'Arial'
-title_font = Font(name=FNT, bold=True, size=16, color='11304E')
-note_font = Font(name=FNT, italic=True, size=10, color='555555')
-white = Font(name=FNT, color='FFFFFF', bold=True, size=12)
+title_font = Font(name=FNT, bold=True, size=13, color='FFFFFF')
+note_font = Font(name=FNT, italic=True, size=9, color='FFFFFF')
 hdr_font = Font(name=FNT, bold=True, size=10, color='FFFFFF')
 id_font = Font(name=FNT, size=9, color='9AA0A6')
 name_font = Font(name=FNT, size=11, color='000000')
 thin = Side(style='thin', color='D9D9D9')
 border = Border(left=thin, right=thin, top=thin, bottom=thin)
-GEN_FILL = {'MASCHILE': PatternFill('solid', fgColor='1F4E79'), 'FEMMINILE': PatternFill('solid', fgColor='B0286B')}
 hdr_fill = PatternFill('solid', fgColor='404040')
 id_fill = PatternFill('solid', fgColor='F2F2F2')
 at_fill = PatternFill('solid', fgColor='FFF8E1')
-ws.column_dimensions['A'].width = 16
-ws.column_dimensions['B'].width = 34
-ws.column_dimensions['C'].width = 28
+UNLOCK = Protection(locked=False)
 
-r = 1
-ws.merge_cells('A1:C1')
-c = ws.cell(r, 1, 'RUBRICA TAG INSTAGRAM - BEACH VOLLEY 2026'); c.font = title_font
-c.alignment = Alignment(horizontal='left', vertical='center'); ws.row_dimensions[r].height = 26
-r += 1
-ws.merge_cells('A2:C2')
-c = ws.cell(r, 1, 'Ogni giocatore scrive SOLO la propria @ Instagram nella colonna gialla (C). La colonna A (ID) e a uso interno: non modificarla, serve a evitare i doppioni.')
-c.font = note_font; c.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True); ws.row_dimensions[r].height = 28
-r += 2
-
-total = 0
+wb = Workbook()
+wb.remove(wb.active)
+tot = 0
 for g in GEN_ORDER:
     for cat in CAT_ORDER:
         d = groups.get((g, cat))
         if not d:
             continue
         rws = sorted(d.items(), key=lambda kv: (kv[1], kv[0]))
-        ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=3)
-        c = ws.cell(r, 1, g + '  -  ' + cat + '   (' + str(len(rws)) + ' giocatori)')
-        c.font = white; c.fill = GEN_FILL[g]
-        c.alignment = Alignment(horizontal='left', vertical='center'); ws.row_dimensions[r].height = 22
-        r += 1
+        ws = wb.create_sheet(title=GEN_SHORT[g] + ' ' + CAT_SHORT[cat])
+        ws.sheet_properties.tabColor = GEN_COL[g]
+        ws.sheet_view.showGridLines = False
+        ws.column_dimensions['A'].width = 16
+        ws.column_dimensions['B'].width = 34
+        ws.column_dimensions['C'].width = 28
+        ws.merge_cells('A1:C1')
+        c = ws.cell(1, 1, g + '  -  ' + cat + '   (' + str(len(rws)) + ' giocatori)')
+        c.font = title_font; c.fill = PatternFill('solid', fgColor=GEN_COL[g])
+        c.alignment = Alignment(horizontal='left', vertical='center'); ws.row_dimensions[1].height = 24
+        ws.merge_cells('A2:C2')
+        c = ws.cell(2, 1, 'Scrivi SOLO la tua @ Instagram nella colonna C (gialla). ID e Cognome/Nome non sono modificabili.')
+        c.font = note_font; c.fill = PatternFill('solid', fgColor=GEN_COL[g])
+        c.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True); ws.row_dimensions[2].height = 22
         for col, txt in enumerate(['ID federvolley (uso interno)', 'COGNOME NOME', '@ Instagram (da compilare)'], 1):
-            cc = ws.cell(r, col, txt); cc.font = hdr_font; cc.fill = hdr_fill
-            cc.alignment = Alignment(horizontal='left', vertical='center'); cc.border = border
-        r += 1
+            hc = ws.cell(3, col, txt); hc.font = hdr_font; hc.fill = hdr_fill
+            hc.alignment = Alignment(horizontal='left', vertical='center'); hc.border = border
+        r = 4
         for pid, name in rws:
             a = ws.cell(r, 1, pid); a.font = id_font; a.fill = id_fill; a.border = border
             a.alignment = Alignment(horizontal='center')
             b = ws.cell(r, 2, tc(name)); b.font = name_font; b.border = border
-            cc = ws.cell(r, 3, ''); cc.fill = at_fill; cc.border = border
-            r += 1; total += 1
-        r += 1
-
-ws.freeze_panes = 'A4'
+            cc = ws.cell(r, 3, ''); cc.fill = at_fill; cc.border = border; cc.protection = UNLOCK
+            r += 1
+            tot += 1
+        ws.freeze_panes = 'A4'
+        ws.protection.sheet = True
+        ws.protection.formatColumns = False
+        ws.protection.formatRows = False
+        ws.protection.sort = True
+        ws.protection.autoFilter = True
 wb.save(OUT)
-print('Righe giocatore:', total)
-print('Sezioni:', [(g, cat, len(groups[(g, cat)])) for g in GEN_ORDER for cat in CAT_ORDER if (g, cat) in groups])
+print('Fogli:', [s.title for s in wb.worksheets])
+print('Totale righe giocatore:', tot)
