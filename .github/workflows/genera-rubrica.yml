@@ -1,0 +1,49 @@
+name: Genera rubrica giocatori 2026
+
+# Produce il file completo (tutte le tappe 2026, M+F, U14-U20 + Assoluto),
+# deduplicato per ID e ordinato per cognome. Si puo' lanciare a mano ("Run workflow")
+# e gira da solo ogni lunedi' mattina, cosi' si completa man mano che escono le liste.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'   # ogni lunedi' 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Estrai i giocatori da tutte le tappe
+        run: node genera-rubrica.mjs
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installa openpyxl
+        run: pip install openpyxl
+      - name: Costruisci l'Excel formattato
+        run: python build_xlsx.py players_all.json Rubrica-Giocatori-2026.xlsx
+
+      - name: Salva come artifact (scaricabile dal run)
+        uses: actions/upload-artifact@v4
+        with:
+          name: rubrica-2026
+          path: |
+            Rubrica-Giocatori-2026.xlsx
+            rubrica-giocatori-2026.csv
+
+      - name: Committa i file aggiornati nel repo
+        run: |
+          git config user.name "rubrica-bot"
+          git config user.email "rubrica-bot@users.noreply.github.com"
+          git add Rubrica-Giocatori-2026.xlsx rubrica-giocatori-2026.csv players_all.json
+          git commit -m "Aggiorna rubrica giocatori 2026" || echo "Nessuna modifica da committare"
+          git push || echo "Push non riuscito"
