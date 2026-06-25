@@ -1,0 +1,3074 @@
+[
+  {
+    "id": 15156,
+    "name": "SACRIPANTI MAURO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15178,
+    "name": "TITTA GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15200,
+    "name": "CAMINATI MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15149,
+    "name": "ROSSI ENRICO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15153,
+    "name": "ANDREATTA TIZIANO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13937,
+    "name": "ACERBI RAOUL",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 36386,
+    "name": "ULISSE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14135,
+    "name": "SPADONI GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14166,
+    "name": "IERVOLINO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14415,
+    "name": "MARCHESAN MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14192,
+    "name": "MARCHETTO TOBIA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14287,
+    "name": "BURGMANN MICHAEL",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 35832,
+    "name": "MARTINO MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15157,
+    "name": "CARUCCI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 36431,
+    "name": "PRETI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15165,
+    "name": "KRUMINS DAVIS",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15141,
+    "name": "BENZI DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15145,
+    "name": "DAL MOLIN DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15142,
+    "name": "INGROSSO PAOLO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15308,
+    "name": "MUSSA FABRIZIO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15938,
+    "name": "LUISETTO MICHELE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 52073,
+    "name": "FRINOLLI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15148,
+    "name": "LUPO DANIELE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14539,
+    "name": "CAMERANI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 41681,
+    "name": "BELLUCCI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15135,
+    "name": "CAMOZZI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15188,
+    "name": "MENCARONI KEVIN",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 38403,
+    "name": "COGGIOLA MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 52862,
+    "name": "SANTOMASSIMO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13823,
+    "name": "DI FELICE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14526,
+    "name": "IURISCI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14519,
+    "name": "MARINI DA COSTA GABRIEL",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14602,
+    "name": "MARINI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 40367,
+    "name": "BRUCINI NICOLAS",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15202,
+    "name": "TASCONE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15140,
+    "name": "BERTOLI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 60195,
+    "name": "DRAGO GUGLIELMO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 41340,
+    "name": "BERNARDI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14210,
+    "name": "RIZZATO ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 36234,
+    "name": "PERINI MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15207,
+    "name": "CERRI DANIEL",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14139,
+    "name": "CERRI FABIO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 52875,
+    "name": "FONGO LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 40457,
+    "name": "MONOPOLI FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13936,
+    "name": "MILANI LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 47659,
+    "name": "RINALDO MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14711,
+    "name": "TOSIN ENRICO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 16000,
+    "name": "MARZOLLA SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 52095,
+    "name": "PERI FRANCESCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 43951,
+    "name": "COLOSIMO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15909,
+    "name": "COLOMBO SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15367,
+    "name": "TRAINI DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14598,
+    "name": "MAESTRI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 39657,
+    "name": "LASCARI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15244,
+    "name": "PIZZILEO FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15166,
+    "name": "AREZZO DI TRIFILETTI FRANCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15401,
+    "name": "TORRE ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15215,
+    "name": "CRAVERA LUCA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15129,
+    "name": "GEROMIN FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 58431,
+    "name": "BELTRAME BENEDETTO ERNESTO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15115,
+    "name": "CAMPANA EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 51978,
+    "name": "DI BLASIO GIUSEPPE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15155,
+    "name": "CECCOLI EDGARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 36361,
+    "name": "DELLA LUNGA DORE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15997,
+    "name": "GIULIANI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15154,
+    "name": "ALFIERI MANUEL",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15163,
+    "name": "RANGHIERI ALEX",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 57718,
+    "name": "HAJOS ARTUR",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 67611,
+    "name": "NIEMEIER LUKAS PHILIP",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14143,
+    "name": "VISCOVICH MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15980,
+    "name": "BORRACCINO DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15152,
+    "name": "FICOSECCO PAOLO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 62540,
+    "name": "DENINA FRANCESCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15144,
+    "name": "LUPO ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 38538,
+    "name": "PANTALEI EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14407,
+    "name": "RICCÒ RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13921,
+    "name": "SERAFINI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15052,
+    "name": "SEREGNI SERGIO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14223,
+    "name": "GALIAZZO GIAN MARCO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15355,
+    "name": "GOVONI FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14921,
+    "name": "TARSI MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 48066,
+    "name": "CALIRI LUCA",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 46963,
+    "name": "LEONELLI DENNIS",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 14550,
+    "name": "BROFIGA FRANCHI FABIO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15132,
+    "name": "TAILLI DANIELE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15227,
+    "name": "CIAMARRA DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15387,
+    "name": "ALFIERI GIOVANNI",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15189,
+    "name": "VIALE VITTORIO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15475,
+    "name": "BOLOGNESI GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 15995,
+    "name": "PALLI COSTANTINO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 63073,
+    "name": "PALLI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12194,
+    "name": "GOTTARDI VALENTINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13503,
+    "name": "ORSI TOTH REKA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 41234,
+    "name": "BIANCHI GIADA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13784,
+    "name": "SCAMPOLI CLAUDIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13458,
+    "name": "PUCCINELLI CLAUDIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13635,
+    "name": "BARBONI ARIANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13783,
+    "name": "GRADINI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13520,
+    "name": "FRASCA FEDERICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 35971,
+    "name": "BELLIERO PICCININ JESSICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13684,
+    "name": "MICHIELETTO FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13617,
+    "name": "THEY CHIARA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13799,
+    "name": "BREIDENBACH SARA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13606,
+    "name": "BENAZZI GIADA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13591,
+    "name": "GILI ELEONORA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12261,
+    "name": "SANGUIGNI CAMILLA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13519,
+    "name": "BALDUCCI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13642,
+    "name": "ENZO IRENE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12922,
+    "name": "FEZZI CINDY LEE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12222,
+    "name": "SALVADOR ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13447,
+    "name": "PICCOLI ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 60700,
+    "name": "ORCIANI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13568,
+    "name": "PRATESI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 43958,
+    "name": "NIKA DEIZI",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 40650,
+    "name": "SESTINI ELEONORA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13442,
+    "name": "ROTTOLI SHARIN",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13418,
+    "name": "SHPUZA ORIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13361,
+    "name": "FRANZONI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12321,
+    "name": "TALLEVI DIOTALLEVI VALERIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12259,
+    "name": "TORRESE VALENTINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12151,
+    "name": "MASSI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13358,
+    "name": "BOSCOLO GLORIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13609,
+    "name": "GALAZZO SONIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 42016,
+    "name": "PERETTI FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 54665,
+    "name": "FIOCCO MARIANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 59629,
+    "name": "CAMPO GAIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 62730,
+    "name": "BARUCCA MARIANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 35722,
+    "name": "QUAGLIOTTI VITTORIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12487,
+    "name": "VALDORA ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13259,
+    "name": "ZANIBONI ALESSIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13528,
+    "name": "FIORE EMANUELA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 43001,
+    "name": "CONCETTI GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13600,
+    "name": "DALMAZZO ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13500,
+    "name": "UJKA ALESSIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12926,
+    "name": "MONTEDORO MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13337,
+    "name": "FORESTI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 39660,
+    "name": "TOMAT ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12532,
+    "name": "TONELLO ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12533,
+    "name": "PASTORE FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 61589,
+    "name": "BUCCIARELLI BIANCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 56998,
+    "name": "BELEGNI LAURA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 56457,
+    "name": "SCHWAN COURTNEY",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13733,
+    "name": "CICOLA LUNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13420,
+    "name": "GUIDI ELENA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13480,
+    "name": "CAMATTI FEDERICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 60935,
+    "name": "CACCO VERONICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12976,
+    "name": "PORPORATI NOEMI",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13596,
+    "name": "ANNIBALINI ELEONORA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13244,
+    "name": "ARCAINI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12225,
+    "name": "BERNASCONI GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13602,
+    "name": "MENICONI BEATRICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 62907,
+    "name": "FERRARI AURORA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 37755,
+    "name": "RASTELLI GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13661,
+    "name": "MANCINELLI MARIA RACHELE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 37165,
+    "name": "PELLOIA ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13082,
+    "name": "MAESTRONI ESTER",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 53475,
+    "name": "GORLA GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 51104,
+    "name": "FALCONE EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 67389,
+    "name": "BARLETTA NATALIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12635,
+    "name": "MATTAVELLI AURORA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13122,
+    "name": "EACO ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13692,
+    "name": "ZUCCARELLI AGATA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13336,
+    "name": "CIMMINO SERENA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13133,
+    "name": "PASTORINO MONICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13554,
+    "name": "BIANCINI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13497,
+    "name": "PANFILI LUDOVICA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 63966,
+    "name": "OCCHIPINTI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 38697,
+    "name": "BARBIERI CAROLINA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13221,
+    "name": "BONACINA GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12919,
+    "name": "FONTEMAGGI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13623,
+    "name": "BERTOZZI NICOL",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13222,
+    "name": "MAZZOTTI BIANCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13786,
+    "name": "BONFATTI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 56488,
+    "name": "PERINI EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 13770,
+    "name": "GIACOSA SILVIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 36272,
+    "name": "CICOGNA OLIMPIA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 12094,
+    "name": "FRAGONAS ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 42537,
+    "name": "AMELI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 48070,
+    "name": "BRICCA FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "ASSOLUTO"
+  },
+  {
+    "id": 62212,
+    "name": "SCARPELLINI MAICOL",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62211,
+    "name": "ROSSINI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62391,
+    "name": "IURISCI LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67592,
+    "name": "PASQUINI LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67594,
+    "name": "SANTILLI FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62213,
+    "name": "LUCHETTA FRANCESCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62214,
+    "name": "CREMONESI LUCA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62393,
+    "name": "DI MARTINO GIOVANNI",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67593,
+    "name": "SESSA LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67595,
+    "name": "TESSITORE ANGELO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67596,
+    "name": "VALORI RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 57660,
+    "name": "CRISCENTI CARLO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61787,
+    "name": "DORIA UMBERTO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67381,
+    "name": "MARCHI GIORDANO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 57903,
+    "name": "ZANIN RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61955,
+    "name": "GIACOMEL RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67382,
+    "name": "DONINI TEO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67266,
+    "name": "ROMERIO EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67265,
+    "name": "TOSI GIOVANNI",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67262,
+    "name": "SCARPA NICOLA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67263,
+    "name": "RIZZONATO EVANS",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61789,
+    "name": "BALDIN TOMMASO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62066,
+    "name": "PAGIN ALBERTO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67383,
+    "name": "CAMMILLERI TOMMASO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67384,
+    "name": "PERETTI MICHELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67601,
+    "name": "DE RITIS CLAUDIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62885,
+    "name": "PULSONI ANGELINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62010,
+    "name": "CANTA LUCILLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62014,
+    "name": "MARIOTTI ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62009,
+    "name": "IEZZI BIANCA MARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62013,
+    "name": "CANALE SOPHIE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62891,
+    "name": "CLEMENTINI GIULIA BENEDETTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62890,
+    "name": "DI BLASIO MARIAMARGHERITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62888,
+    "name": "VENTURA DIANE REMELIE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67600,
+    "name": "MARAGNO EMANUELA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62889,
+    "name": "DE SANCTIS GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67604,
+    "name": "GIAMMATTEI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67609,
+    "name": "DE BENEDICTIS ESTER",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67610,
+    "name": "NOBILIO MARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67597,
+    "name": "MILILLO MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62887,
+    "name": "DEL MONTE MELISSA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67598,
+    "name": "DI CINTIO GRETA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67599,
+    "name": "DI LORENZO TOSCA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67602,
+    "name": "BOCCAFOLI ASIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67603,
+    "name": "DA SILVA ALMEIDA NICOLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67605,
+    "name": "TRISI CHIARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67607,
+    "name": "TOLLIN CAMILLA VALERIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67608,
+    "name": "ROSINI BENEDETTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 57562,
+    "name": "BERTULESSI ILARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 56869,
+    "name": "FILIPPI BEATRICE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61975,
+    "name": "LORENZI ELEONORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61647,
+    "name": "TOGNI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67248,
+    "name": "PETTENAZZO ELENA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67249,
+    "name": "RAGANA GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67388,
+    "name": "LEVORATO NORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 62054,
+    "name": "FRATAMICO GAIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67387,
+    "name": "BERTULESSI ARIANNA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67252,
+    "name": "FRISON AURORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67250,
+    "name": "RETTORE GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67251,
+    "name": "MENEGHETTI MATILDE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67385,
+    "name": "ZASSO GAIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 67386,
+    "name": "NALESSO GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 14"
+  },
+  {
+    "id": 61763,
+    "name": "COPIELLO ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61771,
+    "name": "FRIGO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 52927,
+    "name": "GIOVANAZZI ELIA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56938,
+    "name": "FESTI LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56382,
+    "name": "PAGIN RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56383,
+    "name": "RAGANA MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 52706,
+    "name": "SFRISO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 51544,
+    "name": "CUNIBERTI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67413,
+    "name": "PIRONDI LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67414,
+    "name": "BARALDI SAMUELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56554,
+    "name": "TONAZZO MICHELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61759,
+    "name": "TUZZA DAVIDE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57373,
+    "name": "BANCHI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57372,
+    "name": "IORIO DE MARCO MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56553,
+    "name": "BALDIN EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57906,
+    "name": "VISINTIN GIORGIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 46744,
+    "name": "TOSI FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62930,
+    "name": "FRANZINELLI SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67411,
+    "name": "BENEDET SEBASTIANO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57492,
+    "name": "DE CESARE PIETRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67255,
+    "name": "VETTORAZZO PIETRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67408,
+    "name": "SPILLER ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67409,
+    "name": "SMEETS MARTIN",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56552,
+    "name": "BULAI AIKO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 40756,
+    "name": "MADIOLO LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67412,
+    "name": "SERENA MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62248,
+    "name": "MAZZETTI TOMMASO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67410,
+    "name": "PENA DE OLIVEIRA MATTEO ERNESTO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 52415,
+    "name": "DI DEO MIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56531,
+    "name": "PASQUETTO ADELE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56532,
+    "name": "BELLOLI ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56535,
+    "name": "BELLOLI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67272,
+    "name": "JANNONE CARLOTTA MARIA FIAMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56960,
+    "name": "VALLIN EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61818,
+    "name": "MONDINI CECILIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61649,
+    "name": "PIZZO LISA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57483,
+    "name": "PIZZO CATERINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67407,
+    "name": "LOVISON NOEMI",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62910,
+    "name": "BISIACH EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62691,
+    "name": "RIZZANTE AURORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 51827,
+    "name": "MARITAN EMILIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56544,
+    "name": "RETTORE ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67243,
+    "name": "MONTIN LUCREZIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56530,
+    "name": "MICHIELOTTO GAIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 51113,
+    "name": "GRITTNER ALEA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 51114,
+    "name": "STEGER VICTORIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62076,
+    "name": "SANTORUM STELLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61783,
+    "name": "CACEFFO AURORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67239,
+    "name": "SIMONE GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67238,
+    "name": "PAVAN SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57332,
+    "name": "GRIGGIO SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61780,
+    "name": "DI LUCCA ANITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55870,
+    "name": "THALER MARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55869,
+    "name": "DORFMANN LENA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 53144,
+    "name": "STOLZLECHNER MAJA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55865,
+    "name": "MAIR SANDRA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 53143,
+    "name": "DEFANT CLAIRE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67406,
+    "name": "COLPI TIBESIGWA ANISHA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62690,
+    "name": "ROSSI CHIARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61791,
+    "name": "MARCON CATERINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55860,
+    "name": "PLONER FEDERICA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55875,
+    "name": "PLONER FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 55859,
+    "name": "CANINS EMILY",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 50977,
+    "name": "PESCOLLDERUNGG GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61022,
+    "name": "CAMPEI ANNA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56037,
+    "name": "MOLING MARIE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57335,
+    "name": "ALBERTI SARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57333,
+    "name": "TOMASIN MARGHERITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67245,
+    "name": "BECCARO ZOE IONE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 67244,
+    "name": "QOSJA EMI",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62712,
+    "name": "CRISTOFOLI OLIVIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 62711,
+    "name": "CRISTOFOLI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57336,
+    "name": "BARINA VICTORIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 57337,
+    "name": "ONORATO EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 52413,
+    "name": "MENEGHETTI VITTORIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 61801,
+    "name": "PALIN GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 16"
+  },
+  {
+    "id": 56696,
+    "name": "VISCUSO FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51417,
+    "name": "BERNARDINI JACK",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62253,
+    "name": "PANICO FABIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51602,
+    "name": "PANICALI GIANMARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52228,
+    "name": "MINELLI SAMUELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61723,
+    "name": "LEGHI MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53718,
+    "name": "ROMITI CRISTIAN",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67518,
+    "name": "MALAGOLI GIOVANNI",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52049,
+    "name": "SISOFO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 45832,
+    "name": "ZOLI FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61425,
+    "name": "SERVADEI PIETRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52422,
+    "name": "CAMILLI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52423,
+    "name": "BEZZI FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57043,
+    "name": "VITALI TOMMASO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57047,
+    "name": "CENNI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53721,
+    "name": "CRETAIO EMANUELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 63868,
+    "name": "RUFI EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 59139,
+    "name": "PASQUALI GIACOMO MARIA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53877,
+    "name": "CIANFRINI RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57176,
+    "name": "DI LORETO ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57180,
+    "name": "MINGIONE FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57825,
+    "name": "PANICCIARI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62346,
+    "name": "COSENTINO LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57044,
+    "name": "CATRINARI MARCO ALEXANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62039,
+    "name": "VICINI FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51420,
+    "name": "VALENZI SAMUEL",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56697,
+    "name": "LONGO MARIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52678,
+    "name": "SALERNO MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67416,
+    "name": "BENDINI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56558,
+    "name": "FRANZINELLI GABRIELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 45833,
+    "name": "CAPUCCI ENRICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61426,
+    "name": "MARCHI MICHELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57473,
+    "name": "GENTILE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51231,
+    "name": "CUNIBERTI LUDOVICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62463,
+    "name": "CANZONERI ALESSIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56791,
+    "name": "TROFINO DANIEL",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57636,
+    "name": "DI BARTOLOMEO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56785,
+    "name": "MEDDA GIORGIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67561,
+    "name": "SPADACCINI FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57640,
+    "name": "BONTEMPO GIUSEPPE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57629,
+    "name": "OCCHIONERO PAOLO EMILIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56695,
+    "name": "DE SANTIS ALBERTO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67417,
+    "name": "DE CARLO EMILIANO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62269,
+    "name": "LUCCHINO ANTONIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53715,
+    "name": "ANGELUCCETTI MATTEO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 55062,
+    "name": "PEDICO ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56394,
+    "name": "MARASSI ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57436,
+    "name": "NARDOIANNI JACOPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 58019,
+    "name": "SIMONETTI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 58020,
+    "name": "SCAGNOLI FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57929,
+    "name": "CAPORRELLA GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52679,
+    "name": "MINELLI LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56787,
+    "name": "SCAMURRA MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57875,
+    "name": "PASQUINI ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56506,
+    "name": "BASTANZETTI EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56507,
+    "name": "BARBETTA FABIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67636,
+    "name": "CORSI EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57824,
+    "name": "DI IENNO LUCA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56794,
+    "name": "SASSO ETHAN",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67499,
+    "name": "GERVASIO SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62413,
+    "name": "VIOLANTE TOMMASO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62189,
+    "name": "NDREKA ENRIKO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52787,
+    "name": "DI DONATO ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52469,
+    "name": "GRANCHELLI ANTONIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 62085,
+    "name": "CORETTI MARGHERITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56685,
+    "name": "LAFUENTI MICOL",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52137,
+    "name": "BOTTAZZI EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53119,
+    "name": "OGGIONI GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56489,
+    "name": "TOPPIO REBECCA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52540,
+    "name": "MONFREDINI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 44241,
+    "name": "PORCACCHIA ASIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 44246,
+    "name": "FIORAVANTI STELLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52561,
+    "name": "TOGNON ISOTTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52628,
+    "name": "CAMANGI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61267,
+    "name": "ROSSI LORENZA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51386,
+    "name": "BARBONI SELENE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52002,
+    "name": "PASQUALE EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56361,
+    "name": "RIGAMONTI VERA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52009,
+    "name": "AROSIO MARTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52812,
+    "name": "AROSIO EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52615,
+    "name": "CURLANTE MICHELLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52623,
+    "name": "SANTONI LAVINIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56490,
+    "name": "BOZZOLI MARTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 67521,
+    "name": "RIGAMONTI VERONICA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 55063,
+    "name": "PASQUALI GIULIA MARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 53706,
+    "name": "GRAZIANI LORENA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52563,
+    "name": "OGGIONI GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52542,
+    "name": "LAZZARI FEDERICA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57048,
+    "name": "TOMASSINI GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57049,
+    "name": "TASSINARI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52811,
+    "name": "PALOMBARINI TEODORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51729,
+    "name": "SPOSIMO SIRIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52738,
+    "name": "FORTUNATO LUCREZIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52055,
+    "name": "CARDANI LUCIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52616,
+    "name": "SIMONETTI ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 59161,
+    "name": "SESSA MARTA ROMANA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56466,
+    "name": "MANFREDINI GINEVRA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52409,
+    "name": "ZANIBONI ARIANNA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56488,
+    "name": "PERINI EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61519,
+    "name": "CARUSO ILARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56575,
+    "name": "GINOLI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61741,
+    "name": "DI MARCO ANITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61441,
+    "name": "FANTINUOLI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 66972,
+    "name": "LOSITO CAROLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61522,
+    "name": "PIOMBINO ALICE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57285,
+    "name": "AIOLFI MATILDE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61512,
+    "name": "GRILLI VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 66683,
+    "name": "SERVADEI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61516,
+    "name": "ZUCCHETTI CLAUDIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56491,
+    "name": "CALZARI LINDA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61514,
+    "name": "DI IANNI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61386,
+    "name": "CAMPI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 45952,
+    "name": "PIRACCINI MARGOT",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 45951,
+    "name": "BALZANI NICOLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 51743,
+    "name": "RAGAZZI SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56471,
+    "name": "AGLIO CECILIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 56684,
+    "name": "BERNARDINI ELENA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52132,
+    "name": "DASOLA MICHELLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61449,
+    "name": "VENTURI MARTINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57547,
+    "name": "FANTONE CLAUDIA NINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 57546,
+    "name": "PIETROLUONGO SOFIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 46776,
+    "name": "PELLEGRINI EMMA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 44187,
+    "name": "VIANELLO ISABEL",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 63938,
+    "name": "ALLEVA DIANA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 60049,
+    "name": "TANTARO GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61453,
+    "name": "GASPAROTTO VALERIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 61417,
+    "name": "VALENTINI ILARIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52901,
+    "name": "CERRI CAMILLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 18"
+  },
+  {
+    "id": 52862,
+    "name": "SANTOMASSIMO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 13823,
+    "name": "DI FELICE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 40372,
+    "name": "BERTONCELLO SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62540,
+    "name": "DENINA FRANCESCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52875,
+    "name": "FONGO LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 40457,
+    "name": "MONOPOLI FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51978,
+    "name": "DI BLASIO GIUSEPPE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 53042,
+    "name": "MAIANI EDOARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 45834,
+    "name": "FABBRI SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56585,
+    "name": "OZZI FRANCESCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52211,
+    "name": "BIANCO GABRIELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51417,
+    "name": "BERNARDINI JACK",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56696,
+    "name": "VISCUSO FEDERICO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52228,
+    "name": "MINELLI SAMUELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 61723,
+    "name": "LEGHI MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52049,
+    "name": "SISOFO RICCARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 45937,
+    "name": "MENNA NICOLA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51420,
+    "name": "VALENZI SAMUEL",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62253,
+    "name": "PANICO FABIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52146,
+    "name": "SAIBENE LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 44104,
+    "name": "ALFIERI XAVIER",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 67519,
+    "name": "CORINALDESI GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 67520,
+    "name": "MOSCA GIACOMO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51418,
+    "name": "CAMPETI EMANUELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 40308,
+    "name": "SERAFINI LUCA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 58305,
+    "name": "VERRA MICHELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56348,
+    "name": "SPATARIU ALESSANDRO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62463,
+    "name": "CANZONERI ALESSIO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56657,
+    "name": "GHIELMI MATTIA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 64975,
+    "name": "TINELLI LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56656,
+    "name": "FRATTINI SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 67277,
+    "name": "FORNILLO LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 44098,
+    "name": "GIANCRISTOFARO ANDREA",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52780,
+    "name": "DE CEGLIA DANIELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 67518,
+    "name": "MALAGOLI GIOVANNI",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 53718,
+    "name": "ROMITI CRISTIAN",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51709,
+    "name": "CREMONA LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51708,
+    "name": "FERRAZZO FILIPPO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 58630,
+    "name": "PUGLIESE MARCO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52486,
+    "name": "AUGUGLIARO SIMONE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 58631,
+    "name": "FEDERICO GABRIELE",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56248,
+    "name": "SCHIAVULLI LORENZO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 44105,
+    "name": "RICCIARDI PAOLO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52466,
+    "name": "ROSATI LEONARDO",
+    "genere": "MASCHILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51993,
+    "name": "MATTERAZZO SARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51753,
+    "name": "POMPONIO VIOLA JOY",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52199,
+    "name": "DURAND VIOLA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56490,
+    "name": "BOZZOLI MARTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56685,
+    "name": "LAFUENTI MICOL",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52393,
+    "name": "COTTAFAVA REBECCA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 46136,
+    "name": "CARLI CATERINA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52561,
+    "name": "TOGNON ISOTTA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 44083,
+    "name": "MERLINI GINEVRA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 40585,
+    "name": "CUCCHI FABIANA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62085,
+    "name": "CORETTI MARGHERITA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 67521,
+    "name": "RIGAMONTI VERONICA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 13228,
+    "name": "MARINI DA COSTA VICTORIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 51741,
+    "name": "ABONDIO ELISA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 52067,
+    "name": "FIDELIBUS GAIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 44090,
+    "name": "GRAZIANI CHIARA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 61266,
+    "name": "ALBERTONI MICHELLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62670,
+    "name": "ANNONI GIORGIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 46057,
+    "name": "MERCANTE VALERIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 62079,
+    "name": "CAZZANIGA ELEONORA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 66930,
+    "name": "BUZZI FRANZOSO NICOLE",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56808,
+    "name": "PULITO FRANCESCA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  },
+  {
+    "id": 56997,
+    "name": "DI RITA GIULIA",
+    "genere": "FEMMINILE",
+    "categoria": "UNDER 20"
+  }
+]
