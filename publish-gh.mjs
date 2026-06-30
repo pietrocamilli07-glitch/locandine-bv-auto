@@ -5,18 +5,21 @@
 //
 // Le tappe arrivano da TAPPA_URLS (input "Run workflow") oppure dal file tappe.txt nel repo.
 // Le credenziali IG (IG_USER_ID, IG_TOKEN) arrivano dai Secrets del repo: mai scritte su file.
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseTappa, pairSurnames } from './lib/parse.mjs';
 import { renderRisultato } from './lib/render.mjs';
 import { buildResultCaption } from './lib/caption.mjs';
 import { publishToInstagram } from './lib/ig.mjs';
+import { loadRubrica, buildUserTags } from './lib/tags.mjs';
 import { fetchTappa, tappaIdFromUrl } from './lib/util.mjs';
 import { loadState, saveState, matchKey, putImage, loadQueue, saveQueue, clearQueue, rawUrl } from './lib/store-fs.mjs';
 import { sendPreview } from './lib/telegram.mjs';
 
 const ROOT = process.env.REPO_DIR || process.cwd();
 const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 10);   // tetto per giro (rispetta i limiti API IG ~50/24h)
+const RUBRICA_CSV = process.env.RUBRICA_CSV || join(ROOT, 'rubrica-giocatori-2026.csv');
+const MISSING_FILE = join(ROOT, 'published', 'tag-mancanti.json');
 // Quali partite pubblicare: default = TUTTE quelle reali. Per limitarle: ROUNDS_REGEX="semifinal|finale".
 const ROUNDS = process.env.ROUNDS_REGEX ? new RegExp(process.env.ROUNDS_REGEX, 'i') : /.*/;
 
@@ -32,7 +35,10 @@ async function doRender(){
   const tappe = getTappe();
   if (!tappe.length){ console.log('Nessuna tappa: incolla i link nella "Run workflow" o nel file tappe.txt.'); saveQueue([]); return; }
   const state = loadState();
+  const rubrica = loadRubrica(RUBRICA_CSV);                  // id giocatore -> @handle IG (per i tag)
+  console.log(`Rubrica: ${rubrica.handles.size} handle disponibili (${RUBRICA_CSV}).`);
   const queue = [];
+  const missing = [];                                        // {id,nome,tappa} dei giocatori senza handle
   for (const url of tappe){
     if (queue.length >= MAX_PER_RUN) break;
     let html;
@@ -40,6 +46,7 @@ async function doRender(){
     catch (e){ console.log('lettura fallita ' + url + ': ' + e.message); continue; }
     const tappaId = tappaIdFromUrl(url);
     const { info, matches } = parseTappa(html, { rounds: ROUNDS });
+    const tappaLabel = info.luogo ? `${tappaId} ${info.luogo}` : tappaId;
     const notable = matches.filter(m => ROUNDS.test(m.round || ''));
     console.log(`Tappa ${tappaId} — ${info.luogo || '?'} (${info.genere || '?'}) — ${notable.length} partite candidate.`);
     for (const m of notable){
@@ -51,12 +58,32 @@ async function doRender(){
       try { buf = await renderRisultato(m, info); }
       catch (e){ console.log('render fail ' + key + ': ' + e.message); continue; }
       const rel = putImage(key, buf);
+      const tags = buildUserTags(m, rubrica, { tappa: tappaLabel });  // menzioni dei 4 giocatori
+      missing.push(...tags.missing);
       queue.push({ key, imageRel: rel, caption: buildResultCaption(m, info),
+        user_tags: tags.userTags,
         label: `${pairSurnames(m.teamA)} ${m.setsA}-${m.setsB} ${pairSurnames(m.teamB)} (${m.round || ''})` });
     }
   }
   saveQueue(queue);
+  saveMissing(missing);
   console.log(`Pronte da pubblicare: ${queue.length}`);
+}
+
+// Salva/accumula i giocatori senza handle in published/tag-mancanti.json (dedup per id+tappa)
+// e li stampa a fine run, cosi' si sa chi aggiungere alla rubrica.
+function saveMissing(missing){
+  if (!missing.length){ console.log('Tag mancanti: nessuno (tutti i giocatori hanno un handle).'); return; }
+  const seen = new Set();
+  const uniq = [];
+  for (const m of missing){
+    const k = `${m.id}|${m.tappa}`;
+    if (seen.has(k)) continue;
+    seen.add(k); uniq.push(m);
+  }
+  try { writeFileSync(MISSING_FILE, JSON.stringify(uniq, null, 2) + '\n'); } catch (e){ console.log('scrittura tag-mancanti fallita: ' + e.message); }
+  console.log(`Tag mancanti (${uniq.length} giocatori senza handle) -> ${MISSING_FILE}:`);
+  for (const m of uniq) console.log(`  - ${m.id} ${m.nome || '(nome ignoto)'} — ${m.tappa}`);
 }
 
 async function doPublish(){
@@ -80,13 +107,15 @@ async function doPublish(){
   for (const item of queue){
     if (state.posted[item.key]) continue;
     const imageUrl = rawUrl(item.imageRel);
+    const userTags = item.user_tags || [];
+    const tagsTxt = userTags.length ? userTags.map(t => `@${t.username}`).join(' ') : '(nessun tag)';
     if (DRY){
-      console.log('[PROVA] pubblicherei ' + item.key + ' — ' + item.label + '\n        immagine: ' + imageUrl);
-      await notify(item, '🧪 PROVA — pubblicherei questa storia:\n' + item.label);
+      console.log('[PROVA] pubblicherei ' + item.key + ' — ' + item.label + '\n        immagine: ' + imageUrl + '\n        tag: ' + tagsTxt);
+      await notify(item, '🧪 PROVA — pubblicherei questa storia:\n' + item.label + '\nTag: ' + tagsTxt);
       ok++; continue;
     }
     try {
-      const id = await publishToInstagram({ igUserId, token, imageUrl, asStory: true });
+      const id = await publishToInstagram({ igUserId, token, imageUrl, asStory: true, userTags });
       state.posted[item.key] = { at: Date.now(), igId: id };
       saveState(state);                                      // salva dopo OGNI pubblicazione (progresso parziale)
       ok++;
