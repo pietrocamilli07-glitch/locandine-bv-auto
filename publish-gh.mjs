@@ -12,6 +12,7 @@ import { renderRisultato } from './lib/render.mjs';
 import { buildResultCaption } from './lib/caption.mjs';
 import { publishToInstagram } from './lib/ig.mjs';
 import { loadRubrica, buildUserTags } from './lib/tags.mjs';
+import { loadSponsors, sponsorTags, mergeTags } from './lib/sponsors.mjs';
 import { fetchTappa, tappaIdFromUrl } from './lib/util.mjs';
 import { loadState, saveState, matchKey, putImage, loadQueue, saveQueue, clearQueue, rawUrl } from './lib/store-fs.mjs';
 import { sendPreview } from './lib/telegram.mjs';
@@ -19,6 +20,7 @@ import { sendPreview } from './lib/telegram.mjs';
 const ROOT = process.env.REPO_DIR || process.cwd();
 const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 10);   // tetto per giro (rispetta i limiti API IG ~50/24h)
 const RUBRICA_CSV = process.env.RUBRICA_CSV || join(ROOT, 'rubrica-giocatori-2026.csv');
+const SPONSOR_FILE = process.env.SPONSOR_FILE || join(ROOT, 'sponsor.json');
 const MISSING_FILE = join(ROOT, 'published', 'tag-mancanti.json');
 // Quali partite pubblicare: default = TUTTE quelle reali. Per limitarle: ROUNDS_REGEX="semifinal|finale".
 const ROUNDS = process.env.ROUNDS_REGEX ? new RegExp(process.env.ROUNDS_REGEX, 'i') : /.*/;
@@ -37,6 +39,8 @@ async function doRender(){
   const state = loadState();
   const rubrica = loadRubrica(RUBRICA_CSV);                  // id giocatore -> @handle IG (per i tag)
   console.log(`Rubrica: ${rubrica.handles.size} handle disponibili (${RUBRICA_CSV}).`);
+  const sponsors = loadSponsors(SPONSOR_FILE);              // tappaId -> [@sponsor] taggati su OGNI contenuto
+  console.log(`Sponsor: ${Object.keys(sponsors).filter(k => k !== 'default' && !k.startsWith('_')).length} tappe mappate (${SPONSOR_FILE}).`);
   const queue = [];
   const missing = [];                                        // {id,nome,tappa} dei giocatori senza handle
   for (const url of tappe){
@@ -58,10 +62,12 @@ async function doRender(){
       try { buf = await renderRisultato(m, info); }
       catch (e){ console.log('render fail ' + key + ': ' + e.message); continue; }
       const rel = putImage(key, buf);
-      const tags = buildUserTags(m, rubrica, { tappa: tappaLabel });  // menzioni dei 4 giocatori
+      const tags = buildUserTags(m, rubrica, { tappa: tappaLabel });  // menzioni dei 4 giocatori (in basso)
       missing.push(...tags.missing);
+      const sponsorTagList = sponsorTags(sponsors, tappaId);          // sponsor della tappa (in alto)
+      const userTags = mergeTags(sponsorTagList, tags.userTags);      // sponsor in cima, poi giocatori, senza duplicati
       queue.push({ key, imageRel: rel, caption: buildResultCaption(m, info),
-        user_tags: tags.userTags,
+        user_tags: userTags,
         label: `${pairSurnames(m.teamA)} ${m.setsA}-${m.setsB} ${pairSurnames(m.teamB)} (${m.round || ''})` });
     }
   }

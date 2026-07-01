@@ -1,0 +1,6 @@
+{
+  "_come_compilare": "Chiave = numero della tappa (l'ID in /node/<id> del link Federvolley). Valore = lista di @sponsor taggati su OGNI storia/post di quella tappa, oltre ai giocatori. Usa 'default' per gli sponsor validi su tutte le tappe senza voce propria. Handle validi: lettere, numeri, punto, underscore (spazi/simboli vengono scartati e segnalati nel log).",
+  "66769": [],
+  "66770": [],
+  "default": []
+}
