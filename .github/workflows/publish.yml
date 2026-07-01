@@ -10,6 +10,10 @@ on:
         description: "Link tappe (uno per riga o separati da virgola). Vuoto = usa tappe.txt"
         required: false
         default: ""
+      sponsor:
+        description: "Tag sponsor/account speciali per queste tappe (@a @b, oltre ai giocatori). Vuoto = non tocca sponsor.json"
+        required: false
+        default: ""
   schedule:
     - cron: "*/15 * * * *"
 
@@ -50,6 +54,23 @@ jobs:
             echo "Watch-list invariata."
           else
             git commit -m "watch-list: tappa di oggi [skip ci]"
+            git push
+          fi
+
+      - name: Salva i tag sponsor della tappa (sponsor.json)
+        if: ${{ github.event.inputs.sponsor != '' }}
+        env:
+          TAPPE_IN: ${{ github.event.inputs.tappe }}
+          SPONSOR_IN: ${{ github.event.inputs.sponsor }}
+        run: |
+          node apply-sponsors.mjs
+          git config user.name "bv-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sponsor.json
+          if git diff --cached --quiet; then
+            echo "Sponsor invariati."
+          else
+            git commit -m "sponsor: tag tappa di oggi [skip ci]"
             git push
           fi
 
